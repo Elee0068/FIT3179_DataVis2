@@ -1,0 +1,58 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Historic Global Wine Trade (Billion EUR)",
+    "data": {"url": "https://raw.githubusercontent.com/Elee0068/FIT3179_DataVis2/main/winetradehist.csv"},
+    "width": 300, "height": 400,
+    "padding": {"left": 20, "top": 20, "right": 0, "bottom": 5},
+    "config": {
+        "view": {
+           "stroke": "transparent"
+        }
+      },
+    "encoding": {"x": {"field": "Year", "type": "temporal", "axis": {"grid": false}}},
+    "layer":[{
+        "encoding": {
+            "color": {"field": "Order", "type": "nominal", "scale": {"scheme": "purplered"}, "sort": "descending", "legend": null},
+            "y": {"aggregate": "sum", "field": "Trade Value", "type": "quantitative", "stack": "normalize", "axis": null}
+          },
+          "layer": [
+            {"mark": {"type": "area"}},
+            {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": {"type": "point"}}
+          ]
+    }, {
+      "transform": [{"pivot": "Order", "value": "Trade Value", "groupby": ["Year"]}],
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {"value": 0.5, "param": "hover", "empty": false},
+          "value": 0
+        },
+        "tooltip": [
+          {"field": "a", "type": "quantitative", "title": "France", "format": ".2f"},
+          {"field": "b", "type": "quantitative", "title": "Italy", "format": ".2f"},
+          {"field": "c", "type": "quantitative", "title": "Spain", "format": ".2f"},
+          {"field": "d", "type": "quantitative", "title": "New Zealand", "format": ".2f"},
+          {"field": "e", "type": "quantitative", "title": "Chile", "format": ".2f"},
+          {"field": "f", "type": "quantitative", "title": "Australia", "format": ".2f"},
+          {"field": "g", "type": "quantitative", "title": "United States", "format": ".2f"},
+          {"field": "h", "type": "quantitative", "title": "Germany", "format": ".2f"},
+          {"field": "i", "type": "quantitative", "title": "Portugal", "format": ".2f"},
+          {"field": "j", "type": "quantitative", "title": "Argentina", "format": ".2f"},
+          {"field": "k", "type": "quantitative", "title": "Others", "format": ".2f"}
+        ]
+      },
+      "params": [{
+        "name": "hover",
+        "select": {
+          "type": "point",
+          "fields": ["Year"],
+          "nearest": true,
+          "on": "mouseover",
+          "clear": "mouseout"
+        }
+      }]
+
+    }
+]
+  }
+  
