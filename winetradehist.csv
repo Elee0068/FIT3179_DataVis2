@@ -1,0 +1,133 @@
+Order,Year,Continent,Country,Trade Value
+a,2022,Europe,France,12.279
+b,2022,Europe,Italy,7.834
+c,2022,Europe,Spain,2.984
+d,2022,Oceania,New Zealand,1.349
+e,2022,South America,Chile,1.818
+f,2022,Oceania,Australia,1.381
+g,2022,North America,United States,1.392
+h,2022,Europe,Germany,1.036
+i,2022,Europe,Portugal,0.940
+j,2022,South America,Argentina,0.752
+k,2022,N/A,Others,5.835
+a,2021,Europe,France,11.074
+b,2021,Europe,Italy,7.116
+c,2021,Europe,Spain,2.895
+d,2021,Oceania,New Zealand,1.165
+e,2021,South America,Chile,1.664
+f,2021,Oceania,Australia,1.352
+g,2021,North America,United States,1.245
+h,2021,Europe,Germany,1.0
+i,2021,Europe,Portugal,0.927
+j,2021,South America,Argentina,0.7
+k,2021,N/A,Others,5.262
+a,2020,Europe,France,10.05009497
+b,2020,Europe,Italy,7.265077172
+c,2020,Europe,Spain,3.110840135
+d,2020,Oceania,Australia,2.092005288
+e,2020,South America,Chile,1.833045189
+f,2020,North America,United States,1.393264872
+g,2020,Oceania,New Zealand,1.333597131
+h,2020,Europe,Germany,1.043458337
+i,2020,Europe,Portugal,0.97188765
+j,2020,South America,Argentina,0.788201413
+k,2020,N/A,Others,1.986032649
+a,2019,Europe,France,11.06796577
+b,2019,Europe,Italy,7.230206432
+c,2019,Europe,Spain,3.140255303
+d,2019,Oceania,Australia,2.153335664
+e,2019,South America,Chile,1.947457698
+f,2019,North America,United States,1.445972282
+g,2019,Oceania,New Zealand,1.254353002
+h,2019,Europe,Germany,1.099655849
+i,2019,Europe,Portugal,0.909322533
+j,2019,South America,Argentina,0.803101194
+k,2019,N/A,Others,2.270127255
+a,2018,Europe,France,11.14061001
+b,2018,Europe,Italy,7.371622578
+c,2018,Europe,Spain,3.542416845
+d,2018,Oceania,Australia,2.244094723
+e,2018,South America,Chile,2.017762635
+f,2018,North America,United States,1.495995866
+g,2018,Oceania,New Zealand,1.238380243
+h,2018,Europe,Germany,1.141889512
+i,2018,Europe,Portugal,0.977679595
+j,2018,South America,Argentina,0.832042282
+k,2018,N/A,Others,2.559726196
+a,2017,Europe,France,10.36524059
+b,2017,Europe,Italy,6.823088049
+c,2017,Europe,Spain,3.312208404
+d,2017,Oceania,Australia,2.147296432
+e,2017,South America,Chile,2.036310138
+f,2017,North America,United States,1.479833448
+g,2017,Oceania,New Zealand,1.24386689
+h,2017,Europe,Germany,1.078573493
+i,2017,Europe,Portugal,0.865026831
+j,2017,South America,Argentina,0.814616853
+k,2017,N/A,Others,2.988825601
+a,2016,Europe,France,9.239788919
+b,2016,Europe,Italy,6.300136488
+c,2016,Europe,Spain,2.987417722
+d,2016,South America,Chile,1.872070887
+e,2016,Oceania,Australia,1.815520839
+f,2016,North America,United States,1.519155446
+g,2016,Oceania,New Zealand,1.15494493
+h,2016,Europe,Germany,1.021198117
+i,2016,South America,Argentina,0.827932596
+j,2016,Europe,Portugal,0.79802739
+k,2016,N/A,Others,2.44797736
+a,2015,Europe,France,9.291119039
+b,2015,Europe,Italy,6.054998669
+c,2015,Europe,Spain,2.995726814
+d,2015,South America,Chile,1.85726981
+e,2015,Oceania,Australia,1.770010439
+f,2015,North America,United States,1.502771173
+g,2015,Oceania,New Zealand,1.102471644
+h,2015,Europe,Germany,1.056951157
+i,2015,South America,Argentina,0.830600111
+j,2015,Europe,Portugal,0.816288591
+k,2015,N/A,Others,2.439860544
+a,2014,Europe,France,10.38717896
+b,2014,Europe,Italy,6.842096896
+c,2014,Europe,Spain,3.41221833
+d,2014,South America,Chile,1.877542575
+e,2014,Oceania,Australia,1.809958615
+f,2014,North America,United States,1.516503834
+g,2014,Europe,Germany,1.231484853
+h,2014,Oceania,New Zealand,1.147107127
+i,2014,Europe,Portugal,0.966433728
+j,2014,South America,Argentina,0.856910496
+k,2014,N/A,Others,2.301097967
+a,2013,Europe,France,10.51925157
+b,2013,Europe,Italy,6.723055722
+c,2013,Europe,Spain,3.437018034
+d,2013,Oceania,Australia,1.915297313
+e,2013,South America,Chile,1.911581145
+f,2013,North America,United States,1.562853377
+g,2013,Europe,Germany,1.28456446
+h,2013,Oceania,New Zealand,1.052416953
+i,2013,Europe,Portugal,0.950251396
+j,2013,South America,Argentina,0.906914211
+k,2013,N/A,Others,2.25063444
+a,2012,Europe,France,10.21286214
+b,2012,Europe,Italy,6.076955006
+c,2012,Europe,Spain,3.143181202
+d,2012,Oceania,Australia,2.085502229
+e,2012,South America,Chile,1.813332295
+f,2012,North America,United States,1.376247578
+g,2012,Europe,Germany,1.241100082
+h,2012,Oceania,New Zealand,1.007379304
+i,2012,South America,Argentina,0.941494427
+j,2012,Europe,Portugal,0.909313347
+k,2012,N/A,Others,1.91196939
+a,2011,Europe,France,10.14972061
+b,2011,Europe,Italy,6.168995808
+c,2011,Europe,Spain,3.120362872
+d,2011,Oceania,Australia,2.162191312
+e,2011,South America,Chile,1.715836513
+f,2011,North America,United States,1.335543226
+g,2011,Europe,Germany,1.309493306
+h,2011,Oceania,New Zealand,1.112740003
+i,2011,Europe,Portugal,0.909888051
+j,2011,South America,Argentina,0.855290548
+k,2011,N/A,Others,1.999737806
