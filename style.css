@@ -1,11 +1,11 @@
-html {background:url(images/body_bckg.jpg) center repeat-y #1f0100;}
-body {margin:0; font-size:15px; line-height:18px; font-family:"Times New Roman", Times, serif; background:url(images/head_bckg.jpg) repeat-x; padding-top:80px;}
+html {background: center repeat-y #570625;}
+body {margin:0; font-size:15px; line-height:18px; font-family: sans-serif; background:repeat-x; padding-top:80px;}
 a {color:#775b30;}
 a:hover {text-decoration:none;}
 
 #container {width:1000px; margin:0 auto;}
 
-#header {margin:0 20px; background:url(images/main_top.jpg) no-repeat #FFFFFF; height:80px;}
+#header {margin: -50px 20px 0 20px; background: no-repeat #FFFFFF; height:80px; font-family: serif}
 #logo {float:left; height:30px; padding:50px 0 0 90px; background:url(images/wine.jpg) no-repeat 40px 40px; width:290px;}
 #logo a {color:#000000; font-size:24px; text-decoration:none; text-transform:uppercase;}
 #menu {float:left; height:30px; padding:50px 0 0 0; width:580px;}
@@ -16,6 +16,7 @@ a:hover {text-decoration:none;}
 
 #main {margin:0 20px; background-color:#FFFFFF; float:left;}
 #text {margin:0 100px; float:left; width:760px; padding:10px 50px -30px 20px; text-align: justify;}
+#textmid {margin:0 95px; float:right; width:760px; padding:10px 20px -20px 0px; text-align: center;}
 #textleft {margin:0 100px; float:left; width:380px; padding:10px 50px -30px 20px; text-align: justify;}
 #textright {margin:20px 90px; float:right; width:380px; padding:10px 50px -30px 20px; text-align: justify;}
 #text ul {padding:0; margin:10px 0 10px 40px;}
@@ -23,10 +24,12 @@ a:hover {text-decoration:none;}
 h1 {margin:20px 0 0 0; text-transform:uppercase; font-size:20px; font-weight:normal;}
 #text p {margin:10px 0;}
 #map {float:none; width:800px; padding:30px 100px 20px 50px; color:#775b30; font-size:12px;}
-#pie {margin:40px -45px  0; float:none; width:250px; padding:500px -100px 50px -500px; color:#775b30; font-size:12px;}
+#pie {margin:40px -45px  0; float:none; width:250px; padding:500px -80px 50px -500px; color:#775b30; font-size:12px;}
 #area {margin:40px 100px 0; float:left; width:200px; padding:500px -100px 50px -500px; color:#775b30; font-size:12px;}
+#extree {width:800px; padding:30px 10px 10px 50px; color:#775b30; font-size:12px;}
+#imtree {width:800px; padding:30px 100px 20px 50px; color:#775b30; font-size:12px;}
 
-#footer {height:149px; clear:both; background:url(images/footer_bckg.jpg) no-repeat; text-transform:uppercase; font-size:10px; color:#5c5c5c;}
+#footer {height:149px; clear:both; background:url(images/footer_bckg.png) no-repeat; text-transform:uppercase; font-size:10px; color:#5c5c5c;}
 #left_footer {float:left; padding:40px 0 0 50px;}
 #right_footer {float:right; padding:40px 50px 0 0;}
  
