@@ -19,23 +19,35 @@
     "color": {
       "condition": {
         "selection": "pts",
-        "field": "Country", "type": "nominal", "legend": null, 
+        "field": "Rank", "type": "nominal", "legend": null, 
         "scale": {
-          "domain": ["Italy", "Germany", "France", "Argentina","USA", "UK", "Spain", "Russia", "PRC (China)", "Others"], 
-          "range": ["#70002A","#7e002f","#881c39","#95354f","#a34f65","#b0687b","#bd8191","#ca9aa7","#d7b3bd", "#f2e4b7"]
+          "scheme": "category20c"
         }
       }, "value": "lightgray"
     }
   },
-
   "layer": [{
+
     "selection": {
-      "pts": {"type": "single", "on": "click"}
+      "pts": {"type": "single", "on": "click"},
+      "highlight": {"type": "point", "on": "mouseover"}
     },
-    "mark": {"type": "arc", "outerRadius": 90, "innerRadius": 50,  
-              "padAngle": 0.02, "cornerRadius": 3},
+    "mark": {"type": "arc", "innerRadius": 50,  
+              "padAngle": 0.02, "cornerRadius": 3, "stroke": "black"},
     "encoding":{
-      "tooltip": [{"field": "mhl", "type": "quantitative"}]
+      "strokeWidth": {
+        "condition": [{
+          "param": "pts",
+          "empty": false,
+          "value": 3
+        },{
+          "param": "highlight",
+          "empty": false,
+          "value": 2
+        }],
+        "value":0},
+      "radius":{
+        "value": 90}  
     }          
   }, {
     "mark": {"type": "text", "radius": 120},
