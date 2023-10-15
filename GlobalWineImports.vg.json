@@ -1,0 +1,104 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "width": 800,
+    "height": 400,
+    "title": "Wine Imports 2022 measured in EUR",
+    "padding": {"left": 0, "top": 0, "right": 0, "bottom": 15},
+    "signals": [
+        { "name": "Continent", "value": "All",
+            "bind": {"input": "select", "options": ["All","Africa", "Asia", "Europe", "North America", "Oceania", "South America"],
+            "name": "Continent Selector "}},
+        { "name": "width", "update": "800" },
+        { "name": "height", "update": "400" }
+    ],
+  
+    "data": [
+      {
+        "name": "tree",
+        "url": "https://raw.githubusercontent.com/Elee0068/FIT3179_DataVis2/main/wineimport.csv",
+        "format": {"type": "csv" },
+        "transform": [
+            {
+                "type": "filter",
+                "expr": "Continent === 'All' || datum.Continent === Continent"
+            },
+            {
+                "type": "nest",
+                "keys": ["ConRank", "Country"]
+            },
+            {
+                "type": "treemap",
+                "field": "Imports",
+                "method": "squarify",
+                "ratio": 1.4,
+                "size": [{"signal": "width"}, {"signal": "height"}]
+            }
+        ]
+      },
+        {
+            "name": "filteredTree",
+            "source": "tree",
+            "transform": [
+                {
+                    "type": "filter",
+                    "expr": "datum.Percent > 5.0"
+                }
+            ]
+        }
+    ],
+  
+    "scales": [
+      {
+        "name": "color",
+        "type": "ordinal",
+        "domain": ["Africa", "Asia", "Europe", "North America", "Oceania", "South America"],
+        "range": ["#00563B", "#960018", "#6F2DA8", "#00308F", "#F4C430", "#FF7F50"]
+      }
+    ],
+    "legends": [
+        {
+            "fill": "color",
+            "title": "Continent",
+            "offset": 5
+        }
+    ],  
+    "marks": [
+      {
+        "type": "rect",
+        "from": {"data": "tree"},
+        "encode": {
+          "enter": {
+            "fill": {"scale": "color", "field": "Continent"},
+            "stroke": {"value": "white"}
+          },
+          "update": {
+            "x": {"field": "x0"},
+            "x2": {"field": "x1"},
+            "y": {"field": "y0"},
+            "y2": {"field": "y1"},
+            "tooltip": {
+                "signal": "{'Country': datum.Country, 'Imports': datum.Imports}" 
+            }
+          }
+        }
+      }, 
+      {
+          "type": "text",
+          "from": { "data": "filteredTree" },
+          "encode": {
+              "enter": {
+                  "text": { "field": "Country" },
+                  "x": { "field": "x0", "offset":3 },
+                  "y": { "field": "y0", "offset":15},
+                  "fontSize": { "value": 10 },
+                  "fontWeight":{"value": "bold"},
+                  "fill": { "value": "white" }
+              },
+              "update": {
+                "x": {"field": "x0", "offset":3},
+                "y": {"field": "y0", "offset":15}
+            }
+          }
+      }
+    ]
+}
