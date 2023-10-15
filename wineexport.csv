@@ -1,0 +1,189 @@
+ConRank,Continent,CountRank,Country,Exports,Percent
+1,Europe,aa,France,12522121386,42.73268152
+1,Europe,ab,Italy,8114498383,27.69133635
+1,Europe,ac,Spain,3360782191,11.46892213
+1,Europe,ad,Germany,1118924358,3.81841357
+1,Europe,ae,Portugal,1041947708,3.55572496
+1,Europe,af,United Kingdom,544404933.2,1.857822801
+1,Europe,ag,Netherlands,446457772.6,1.523570745
+1,Europe,ah,Belgium,310172341.8,1.058486457
+1,Europe,ai,Austria,260159423.2,0.8878136085
+1,Europe,aj,Lithuania,214026330.1,0.7303809569
+1,Europe,ak,Denmark,209974646.9,0.7165542832
+1,Europe,al,Greece,156745450.3,0.534905644
+1,Europe,am,Moldova,133267412.4,0.4547850733
+1,Europe,an,Switzerland,128934035.9,0.4399970996
+1,Europe,ao,Hungary,122381665.6,0.4176366431
+1,Europe,ap,Latvia,112545533.7,0.3840701028
+1,Europe,aq,Poland,66252894.39,0.2260929876
+1,Europe,ar,North Macedonia,55654553.92,0.1899253532
+1,Europe,as,Slovakia,40396991.91,0.1378577748
+1,Europe,at,Czechia,39584511.8,0.1350851252
+1,Europe,au,Romania,36456157.41,0.1244093805
+1,Europe,av,Bulgaria,34248531.65,0.1168756915
+1,Europe,aw,Ireland,29822250.79,0.1017706749
+1,Europe,ax,Luxembourg,25643121.21,0.08750908077
+1,Europe,ay,Sweden,24001375.9,0.08190650136
+1,Europe,az,Estonia,23494456.74,0.08017660158
+1,Europe,ba,Slovenia,21698859.12,0.07404898958
+1,Europe,bb,Serbia,19931908.08,0.0680191362
+1,Europe,bc,Finland,18817040.67,0.06421456727
+1,Europe,bd,Croatia,18630003.37,0.0635762884
+1,Europe,be,Montenegro,12811631.64,0.04372065704
+1,Europe,bf,Russia,11503222.7,0.03925561308
+1,Europe,bg,Ukraine,10938068.85,0.03732698304
+1,Europe,bh,Norway,5816969.88,0.01985084744
+1,Europe,bi,Belarus,3889913.38,0.01327462212
+1,Europe,bj,Bosnia and Herzegovina,3672304.58,0.01253201572
+1,Europe,bk,Albania,1182297.81,0.004034680244
+1,Europe,bl,Malta,901533.58,0.003076551182
+1,Europe,bm,Gibraltar,321967.52,0.00109873839
+1,Europe,bn,Andorra,170743.91,0.0005826764413
+1,Europe,bo,San Marino,107507.64,0.0003668779114
+1,Europe,bp,Iceland,90737.78,0.0003096495023
+2,Oceania,aa,New Zealand,1966429451,55.88615656
+2,Oceania,ab,Australia,1551903963,44.10529337
+2,Oceania,ac,Marshall Islands,135053.86,0.003838246605
+2,Oceania,ad,Fiji,73001.65,0.002074715489
+2,Oceania,ae,French Polynesia,48618.63,0.00138174719
+2,Oceania,af,Pitcairn Islands,36358.64,0.00103331683
+2,Oceania,ag,New Caledonia,3582.61,0.0001018181981
+2,Oceania,ah,American Samoa,2165.54,0.00006154490181
+2,Oceania,ai,Samoa,1406.6,0.00003997573764
+2,Oceania,aj,Papua New Guinea,262.49,0.00000745999671
+2,Oceania,ak,Guam,186.41,0.000005297794151
+2,Oceania,al,Vanuatu,167.38,0.00000475695931
+2,Oceania,am,Solomon Islands,41.85,0.000001189381928
+3,South America,aa,Chile,1880648328,69.08884568
+3,South America,ab,Argentina,808656491.5,29.70738479
+3,South America,ac,Uruguay,18179096.3,0.6678403187
+3,South America,ad,Brazil,12211978.45,0.4486279981
+3,South America,ae,Peru,1229568.8,0.04517032121
+3,South America,af,Paraguay,467447.73,0.01717249504
+3,South America,ag,Suriname,301187.07,0.0110646242
+3,South America,ah,Bolivia,160147.31,0.005883286429
+3,South America,ai,Ecuador,104024.9,0.003821533327
+3,South America,aj,Venezuela,44076.41,0.001619222607
+3,South America,ak,Guyana,40528.04,0.001488867142
+3,South America,al,Colombia,29421.68,0.001080855936
+4,North America,aa,United States,1460368159,93.87329571
+4,North America,ab,Canada,74406394.4,4.782885342
+4,North America,ac,Dominican Republic,7083956.79,0.4553607707
+4,North America,ad,Mexico,6364147.94,0.4090910485
+4,North America,ae,Panama,2693820.59,0.1731603193
+4,North America,af,Guatemala,1523071.39,0.09790389503
+4,North America,ag,Saint Barthélemy,722834.14,0.04646418955
+4,North America,ah,Jamaica,697324.13,0.0448243916
+4,North America,ai,Antigua and Barbuda,432121.93,0.02777704338
+4,North America,aj,Curaçao,294524.97,0.01893223255
+4,North America,ak,Cayman Islands,292910.09,0.01882842715
+4,North America,al,Aruba,155205.65,0.009976707438
+4,North America,am,Barbados,146160.22,0.009395262054
+4,North America,an,Anguilla,110923.81,0.007130245582
+4,North America,ao,Saint Martin,95473.06,0.006137062587
+4,North America,ap,Bermuda,83250.16,0.005351367624
+4,North America,aq,El Salvador,43007.43,0.002764542056
+4,North America,ar,Belize,33930.61,0.002181078905
+4,North America,as,Saint Lucia,28439.25,0.001828091162
+4,North America,at,Costa Rica,27307.5,0.001755341628
+4,North America,au,Trinidad and Tobago,18515.99,0.001190218366
+4,North America,av,Bahamas,17583.96,0.001130306948
+4,North America,aw,Haiti,14327.57,0.0009209843468
+4,North America,ax,Saint Vincent and the Grenadines,8775.34,0.0005640838452
+4,North America,ay,Cuba,5750.05,0.0003696164837
+4,North America,az,Grenada,5627.36,0.0003617299007
+4,North America,ba,Honduras,4540.31,0.0002918537086
+4,North America,bb,Nicaragua,1005.26,0.00006461868443
+4,North America,bc,Saint Kitts and Nevis,578.24,0.00003716959601
+4,North America,bd,Dominica,204.48,0.00001314409068
+4,North America,be,Greenland,163.58,0.00001051501542
+4,North America,bf,British Virgin Islands,41.85,0.000002690141798
+5,Asia,aa,Singapore,463016869.3,42.05565323
+5,Asia,ab,Georgia,227657015.5,20.67800362
+5,Asia,ac,Hong Kong,96443285.22,8.759908393
+5,Asia,ad,China,67638295.58,6.143561698
+5,Asia,ae,Israel,60980670.73,5.538852063
+5,Asia,af,Thailand,45425779.11,4.126006935
+5,Asia,ag,Macau,29668431.77,2.694772828
+5,Asia,ah,United Arab Emirates,22812402.67,2.072042208
+5,Asia,ai,Lebanon,18372256.46,1.668745348
+5,Asia,aj,Malaysia,17705333.6,1.608168988
+5,Asia,ak,Armenia,10466568.69,0.9506746136
+5,Asia,al,Japan,7971926.5,0.7240871741
+5,Asia,am,Turkey,7914913.9,0.7189087404
+5,Asia,an,Chinese Taipei,5491497.75,0.4987907361
+5,Asia,ao,Azerbaijan,4239961.6,0.3851141645
+5,Asia,ap,India,4214448.73,0.3827968398
+5,Asia,aq,Cyprus,4077593.59,0.3703663374
+5,Asia,ar,Uzbekistan,2131354.41,0.1935901431
+5,Asia,as,Sri Lanka,1848270.57,0.1678777412
+5,Asia,at,South Korea,905753.39,0.0822692498
+5,Asia,au,Vietnam,347351.04,0.03154976817
+5,Asia,av,Philippines,343856.88,0.0312323949
+5,Asia,aw,Indonesia,252755.8,0.02295771705
+5,Asia,ax,Kyrgyzstan,184649.21,0.01677162034
+5,Asia,ay,Palestine,172024.02,0.01562487894
+5,Asia,az,Jordan,108993.18,0.009899810755
+5,Asia,ba,Saudi Arabia,104295,0.00947307678
+5,Asia,bb,Syria,93334.14,0.008477505868
+5,Asia,bc,Burma,79758.86,0.00724446814
+5,Asia,bd,Cambodia,53164.65,0.004828925753
+5,Asia,be,Bahrain,45875.8,0.004166882168
+5,Asia,bf,Kazakhstan,40361.61,0.003666030304
+5,Asia,bg,Nepal,35570.22,0.003230830099
+5,Asia,bh,Qatar,32165.46,0.002921576991
+5,Asia,bi,Maldives,22241.26,0.002020165527
+5,Asia,bj,Kuwait,17101.78,0.001553348435
+5,Asia,bk,Laos,12014.61,0.001091282641
+5,Asia,bl,Afghanistan,11577.13,0.001051546492
+5,Asia,bm,Iran,10228.54,0.0009290545546
+5,Asia,bn,Christmas Island,5600.73,0.0005087122615
+5,Asia,bo,Oman,5168.96,0.00046949475
+5,Asia,bp,Bhutan,1301.04,0.0001181729883
+5,Asia,bq,Bangladesh,173.09,0.00001572170152
+5,Asia,br,Cocos (Keeling) Islands,56.11,0.000005096450819
+5,Asia,bs,Mongolia,9.51,0.0000008637898287
+6,Africa,aa,South Africa,735510177.5,95.42361763
+6,Africa,ab,Togo,18904210.11,2.452594366
+6,Africa,ac,Morocco,3731712.87,0.4841449553
+6,Africa,ad,Eswatini,3465103.12,0.4495555402
+6,Africa,ae,Republic of the Congo,1774981.71,0.2302825728
+6,Africa,af,Namibia,1044718.91,0.1355397394
+6,Africa,ag,Rwanda,839248.37,0.108882403
+6,Africa,ah,Burkina Faso,764618.52,0.0992000757
+6,Africa,ai,Angola,740455.19,0.09606517365
+6,Africa,aj,Kenya,673953.97,0.08743743853
+6,Africa,ak,Mauritius,658261.65,0.08540154836
+6,Africa,al,Ghana,395899.29,0.05136318113
+6,Africa,am,Algeria,353038.32,0.04580248471
+6,Africa,an,Ethiopia,337015.03,0.04372365515
+6,Africa,ao,Senegal,273470.62,0.03547953064
+6,Africa,ap,Tanzania,257150.61,0.03336220522
+6,Africa,aq,Botswana,208026.97,0.02698900253
+6,Africa,ar,Zambia,167012.94,0.02166792441
+6,Africa,as,Egypt,162541.1,0.02108775684
+6,Africa,at,Tunisia,129118.35,0.01675155618
+6,Africa,au,Cote d'Ivoire,106381.6,0.01380173576
+6,Africa,av,Zimbabwe,68733.33,0.008917324602
+6,Africa,aw,Seychelles,56857.57,0.00737658728
+6,Africa,ax,Nigeria,41364.97,0.005366608378
+6,Africa,ay,Niger,19808.47,0.002569911233
+6,Africa,az,Malawi,18786.09,0.002437269699
+6,Africa,ba,Chad,13053.16,0.001693490841
+6,Africa,bb,Somalia,12376.96,0.001605762007
+6,Africa,bc,Equatorial Guinea,11964.21,0.001552212648
+6,Africa,bd,Sierra Leone,10713.58,0.001389958416
+6,Africa,be,Sudan,8223.73,0.001066930263
+6,Africa,bf,Democratic Republic of the Congo,7010.19,0.0009094880133
+6,Africa,bg,Cape Verde,5607.39,0.0007274915503
+6,Africa,bh,Mozambique,4514.63,0.0005857190561
+6,Africa,bi,Uganda,2925.43,0.0003795394303
+6,Africa,bj,Cameroon,2116.09,0.0002745372793
+6,Africa,bk,Madagascar,1269.65,0.0001647218486
+6,Africa,bl,Central African Republic,949.15,0.0001231408204
+6,Africa,bm,Benin,579.19,0.00007514295082
+6,Africa,bn,Libya,100.81,0.00001307888754
+6,Africa,bo,Gabon,53.26,0.000006909845752
+6,Africa,bp,Liberia,49.45,0.000006415543981
+6,Africa,bq,Djibouti,33.29,0.00000431897794
+6,Africa,br,Lesotho,22.83,0.000002961918485

@@ -1,0 +1,132 @@
+ConRank,Continent,CountRank,Country,Imports,Percent
+1,Europe,,United Kingdom,462316409,67.51218385
+1,Europe,,Germany,54814486,8.004573457
+1,Europe,,Ireland,36687832,5.357533522
+1,Europe,,Netherlands,25271704,3.69043342
+1,Europe,,France,23153758,3.381149223
+1,Europe,,Russia,17905382,2.614727528
+1,Europe,,Denmark,11658765,1.702532445
+1,Europe,,Sweden,11208172,1.636732233
+1,Europe,,Poland,7242594,1.05763786
+1,Europe,,Norway,6947743,1.014580693
+1,Europe,,Belgium,5992995,0.8751585978
+1,Europe,,Latvia,5434802,0.7936455308
+1,Europe,,Bulgaria,3696458,0.5397947103
+1,Europe,,Finland,3379489,0.4935076459
+1,Europe,,Switzerland,2316637,0.3382990956
+1,Europe,,Spain,2160579,0.3155099058
+1,Europe,,Ukraine,1562071,0.228109629
+1,Europe,,Austria,519953,0.07592887002
+1,Europe,,Portugal,359121,0.05244253179
+1,Europe,,Slovakia,302658,0.04419722541
+1,Europe,,Czechia,295242,0.04311426503
+1,Europe,,Italy,291730,0.04260140677
+1,Europe,,Iceland,221639,0.03236600005
+1,Europe,,Hungary,214705,0.03135342625
+1,Europe,,Estonia,155634,0.02272727296
+1,Europe,,Greece,150338,0.02195389672
+1,Europe,,Belarus,146542,0.02139956587
+1,Europe,,Lithuania,139851,0.02042247742
+1,Europe,,Malta,83096,0.0121345302
+1,Europe,,Luxembourg,54268,0.007924769967
+1,Europe,,Serbia,28074,0.004099653424
+1,Europe,,Romania,18355,0.00268038536
+1,Europe,,Croatia,17087,0.002495218995
+1,Europe,,Montenegro,16623,0.002427460956
+1,Europe,,Moldova,9126,0.001332672122
+1,Europe,,Bosnia and Herzegovina,7252,0.001059011421
+1,Europe,,Slovenia,5644,0.0008241947684
+1,Europe,,North Macedonia,2779,0.0004058180832
+2,North America,,United States,725427386,84.37524935
+2,North America,,Canada,131492385,15.29402251
+2,North America,,Bermuda,1019432,0.1185712462
+2,North America,,Mexico,610463,0.0710036164
+2,North America,,Bahamas,263958,0.03070124246
+2,North America,,Cayman Islands,241811,0.02812530077
+2,North America,,Barbados,228446,0.02657080307
+2,North America,,Turks and Caicos Islands,142456,0.01656921251
+2,North America,,Curaçao,81748,0.009508198914
+2,North America,,Dominican Republic,81050,0.009427013774
+2,North America,,Aruba,48330,0.005621314938
+2,North America,,Costa Rica,35812,0.004165332724
+2,North America,,Trinidad and Tobago,24421,0.002840433108
+2,North America,,Saint Martin,22224,0.002584897645
+2,North America,,Antigua and Barbuda,18361,0.002135587907
+2,North America,,Saint Vincent and the Grenadines,9248,0.001075644952
+2,North America,,Honduras,7185,0.0008356951754
+2,North America,,El Salvador,2946,0.0003426524686
+2,North America,,Grenada,1789,0.0002080805385
+2,North America,,Nicaragua,1256,0.0001460867279
+2,North America,,Panama,1193,0.0001387591293
+2,North America,,Jamaica,1132,0.0001316641529
+2,North America,,Guatemala,218,0.00002535581743
+3,Asia,,China,37931498,29.41179007
+3,Asia,,South Korea,19884895,15.41859373
+3,Asia,,Singapore,19466849,15.0944441
+3,Asia,,Hong Kong,18004983,13.96092451
+3,Asia,,Japan,15188842,11.77731057
+3,Asia,,United Arab Emirates,4712074,3.653705721
+3,Asia,,Chinese Taipei,3260506,2.528171125
+3,Asia,,Malaysia,2904885,2.252425353
+3,Asia,,Thailand,2107920,1.634464859
+3,Asia,,Israel,1334877,1.035053298
+3,Asia,,Maldives,959192,0.7437500553
+3,Asia,,Philippines,771169,0.5979584759
+3,Asia,,Vietnam,642862,0.4984702209
+3,Asia,,Kazakhstan,573998,0.4450736081
+3,Asia,,Cambodia,209119,0.1621492546
+3,Asia,,Indonesia,203577,0.1578520307
+3,Asia,,Macau,158915,0.1232214614
+3,Asia,,Sri Lanka,150048,0.1163460582
+3,Asia,,India,101487,0.07869223458
+3,Asia,,Turkey,99667,0.07728102066
+3,Asia,,Cyprus,77105,0.05978662042
+3,Asia,,Laos,37028,0.02871122471
+3,Asia,,Qatar,31469,0.02440081912
+3,Asia,,Mongolia,31181,0.02417750615
+3,Asia,,Armenia,27170,0.02106740778
+3,Asia,,Uzbekistan,25102,0.01946389658
+3,Asia,,Azerbaijan,16085,0.01247218455
+3,Asia,,Jordan,13965,0.01082835295
+3,Asia,,Kyrgyzstan,12641,0.009801733594
+3,Asia,,Burma,12355,0.009579971407
+3,Asia,,Timor-Leste,10355,0.008029186881
+3,Asia,,Lebanon,3820,0.002961998444
+3,Asia,,Tajikistan,1308,0.00101421308
+3,Asia,,Nepal,35,0.0000271387292
+4,Oceania,,Australia,390576919,99.34624552
+4,Oceania,,Cook Islands,807772,0.2054630254
+4,Oceania,,Fiji,280240,0.07128120094
+4,Oceania,,Tonga,254199,0.06465747216
+4,Oceania,,French Polynesia,252938,0.0643367271
+4,Oceania,,Samoa,230889,0.05872839425
+4,Oceania,,Norfolk Island,223777,0.05691940231
+4,Oceania,,New Caledonia,162634,0.04136720965
+4,Oceania,,Marshall Islands,104513,0.02658368596
+4,Oceania,,Papua New Guinea,69793,0.01775238673
+4,Oceania,,Vanuatu,65186,0.01658056082
+4,Oceania,,Guam,42671,0.01085369728
+4,Oceania,,Niue,28006,0.007123541655
+4,Oceania,,Solomon Islands,19546,0.004971675541
+4,Oceania,,American Samoa,12547,0.003191426021
+4,Oceania,,Kiribati,9030,0.002296850002
+4,Oceania,,Wallis and Futuna,3176,0.0008078400449
+4,Oceania,,Micronesia,1935,0.0004921821432
+4,Oceania,,Northern Mariana Islands,1365,0.0003471982561
+5,South America,,Brazil,241230,59.80869548
+5,South America,,Peru,72247,17.91236091
+5,South America,,Colombia,35554,8.814983041
+5,South America,,Argentina,31575,7.828460638
+5,South America,,Uruguay,15828,3.924271575
+5,South America,,Chile,6902,1.711228356
+6,Africa,,Kenya,426528,74.80926206
+6,Africa,,South Africa,66100,11.59335899
+6,Africa,,Mauritius,37664,6.605934537
+6,Africa,,Tanzania,16703,2.929559382
+6,Africa,,Mozambique,13844,2.428115913
+6,Africa,,Senegal,4750,0.8331082479
+6,Africa,,Ethiopia,3102,0.5440635337
+6,Africa,,Madagascar,825,0.1446977483
+6,Africa,,Tunisia,452,0.07927682696
+6,Africa,,Ghana,170,0.02981650572
+6,Africa,,Botswana,16,0.002806259362
