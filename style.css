@@ -15,10 +15,10 @@ a:hover {text-decoration:none;}
 #menu ul a:hover {background-color:#F7F2EE;}
 
 #main {margin:0 20px; background-color:#FFFFFF; float:left;}
-#text {margin:0 100px; float:left; width:760px; padding:10px 50px -30px 20px; text-align: justify; font-size: 18px;}
-#textmid {margin:0 95px; float:right; width:760px; padding:10px 20px -20px 0px; text-align: center; font-size: 18px;}
-#textleft {margin:0 100px; float:left; width:380px; padding:10px 50px -30px 20px; text-align: justify; font-size: 18px;}
-#textright {margin:20px 90px; float:right; width:380px; padding:10px 50px -30px 20px; text-align: justify; font-size: 18px;}
+#text {margin:0 100px; float:left; width:760px; padding:10px 50px -30px 20px; text-align: justify;}
+#textmid {margin:0 95px; float:right; width:760px; padding:10px 20px -20px 0px; text-align: center;}
+#textleft {margin:0 100px; float:left; width:380px; padding:10px 50px -30px 20px; text-align: justify;}
+#textright {margin:20px 90px; float:right; width:380px; padding:10px 50px -30px 20px; text-align: justify;}
 #text ul {padding:0; margin:10px 0 10px 40px;}
 #text ul li {padding-left:20px; background:url(images/li.gif) no-repeat; list-style:none;}
 h1 {margin:20px 0 0 0; text-transform:uppercase; font-size:20px; font-weight:normal;}
